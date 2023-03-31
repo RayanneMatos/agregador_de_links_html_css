@@ -40,7 +40,7 @@ body {
 }
 
 .apresentacao {
-    margin: 3% 15%;
+    margin: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,7 +78,7 @@ body {
 }
 
 .apresentacao__links_subtitulo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: var(--fonte-primaria);
 }
@@ -114,6 +114,7 @@ body {
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
+    font-weight: 400;
 }
 
 @media (max-width: 1200px) {
@@ -129,7 +130,7 @@ body {
     
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 3% 5%;
+        padding: 5%;
         
     }
     
