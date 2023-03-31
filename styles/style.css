@@ -84,13 +84,17 @@ body {
 }
 
 .apresentacao__links__navegacao {
+    
+    overflow: hidden;
+    resize: both;
+
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    border-radius: 8px;
     width: 50%;
     text-align: center;
+    border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
@@ -117,7 +121,7 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .cabecalho {
         padding: 10%;
 
@@ -137,4 +141,7 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+
+    .apresentacao__links__navegacao {
+        font-size: auto;
 }
